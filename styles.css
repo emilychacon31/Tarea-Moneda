@@ -1,0 +1,44 @@
+table {
+  border-collapse: collapse;
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+th,
+td {
+  padding: 10px 30px;
+  border: none;
+  border-bottom: 1px solid rgb(168, 168, 168);
+  font-family: "Courier New", Courier, monospace;
+}
+
+.tablaCabecera {
+  border-bottom: 2px solid rgb(168, 168, 168);
+  font-size: 18px;
+}
+
+.imagenMoneda {
+  display: flex;
+  align-items: center;
+}
+.imgCoins {
+  height: 20px;
+  width: 20px;
+}
+
+.btn {
+  color: rgb(54, 173, 54);
+  border: none;
+  background-color: rgba(211, 255, 211, 0.63);
+  border-radius: 20%;
+}
+.td24h {
+  color: rgb(54, 173, 54);
+}
+.star {
+  color: black;
+}
+.tdRojo {
+  color: red;
+}
